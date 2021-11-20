@@ -1,4 +1,4 @@
-.recipeTile{
+/* .recipeTile{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,9 +16,29 @@
     text-align: center;
     margin: 12px 0;
 }
-.app_recipes{
+.app__recipes{
     display: grid;
     margin: 24px;
     grid-template-columns: 420px 420px;
     align-items: baseline;
-}
+} */
+.recipeTile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .recipeTile__image {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .recipeTile__name {
+    max-width: 400px;
+    text-align: center;
+    margin: 12px 0;
+  }
